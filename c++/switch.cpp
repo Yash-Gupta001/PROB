@@ -3,38 +3,35 @@ using namespace std;
 
 int main() {
     char op;
-    float num1, num2;
+    float r, num2, num1, l;
 
-    cout << "Enter an operator (+, -, *, /): ";
+    cout << "Enter an 1 for area of square"<<endl;
+    cout << "Enter an 2 for area of circle"<<endl;
+    cout << "Enter an 3 for area of rectangle"<<endl;
     cin >> op;
 
-    cout << "Enter two numbers: ";
-    cin >> num1 >> num2;
-
     switch (op) {
-        case '+':
-            cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
+        case '1':
+        cout <<"enter height";
+        cin >> l;
+            cout <<"Area of square is "<< 4*l << endl;
             break;
 
-        case '-':
-            cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
+        case '2':
+        cout <<"enter radius";
+        cin >> r;
+            cout <<"Area of circle is " << 2*3.14*r << endl;
             break;
 
-        case '*':
-            cout << num1 << " * " << num2 << " = " << num1 * num2 << endl;
-            break;
-
-        case '/':
-            if (num2 != 0)
-                cout << num1 << " / " << num2 << " = " << num1 / num2 << endl;
-            else
-                cout << "Error! Division by zero." << endl;
+        case '3':
+        cout <<"enter height and idth";
+        cin >> num1 >> num2;
+            cout << "Area of rectangle " << num1 * num2 << endl;
             break;
 
         default:
-            cout << "Operator is not correct." << endl;
+            cout << "not correct." << endl;
             break;
     }
-
     return 0;
 }
