@@ -1,6 +1,6 @@
 /*
  * Swap variable without using third variable
- */
+*/
 
 import java.util.*;
 

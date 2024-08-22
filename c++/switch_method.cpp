@@ -10,7 +10,7 @@ void performOperation(char op, float num1, float num2) {
         case '*':
             cout << "Multiplication: " << num1 * num2 << endl;
             break;
-
+        
         case '-':
             cout << "Subtraction: " << num1 - num2 << endl;
             break;
@@ -18,11 +18,12 @@ void performOperation(char op, float num1, float num2) {
         case '/':
             if (num2 != 0) {
                 cout << "Division: " << num1 / num2 << endl;
-            } else {
+            } 
+            else {
                 cout << "Error: Division by zero is not allowed." << endl;
             }
             break;
-
+            
         default:
             cout << "Invalid operator." << endl;
             break;
@@ -46,7 +47,6 @@ int main() {
 
         cout << "continue? (y/n): ";
         cin >> choice;
-
     } while (choice == 'y' || choice == 'Y');
 
     return 0;
