@@ -1,8 +1,10 @@
 #include <iostream>
+using namespace std; 
+
 
 int main() {
     int n;
-    std::cin >> n;
+    cin >> n;
 
     for (int i = 2; i <= n; i++) {  
         int isPrime = 1;  // Assume i is prime
@@ -12,8 +14,9 @@ int main() {
                 break;
             }
         }
+        
         if (isPrime) {
-            std::cout << i << " ";  // Print the prime number
+            cout << i << " ";  // Print the prime number
         }
     }
 

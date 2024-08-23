@@ -3,7 +3,7 @@ using namespace std;
   
 int main() 
 { 
-    int len,n = 0; 
+    int len; 
     cout << "enter lenght of value to be added-:";
     cin >> len;
     int val[len]; 
@@ -13,11 +13,12 @@ int main()
         cin >> val[i]; 
     } 
   
-    cout << "addition-: "; 
-    for (int i = len-1; i >= 0; i--) { 
+    cout << "element-: "; 
+    for (int i = 0; i < len; i++) { 
         //cout << val[i] << ", "; 
-        n = n+val[i];
+        if(val[i]%2!=1){
+            cout << "even no-: "<<val[i] << ", ";
+        }
     } 
-    cout << n;
     return 0; 
 }
