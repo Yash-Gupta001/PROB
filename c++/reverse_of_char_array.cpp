@@ -18,11 +18,15 @@ class Rev {
         }
         cout << endl; 
     }
+    void prin(){
+        cout << "prog end";
+    }
 };
 
 int main() {
     Rev rev;       
     rev.getData(); 
     rev.logic();   
+    rev.prin();
     return 0;
 }
