@@ -7,16 +7,19 @@ int main() {
     cin >> rows;
 
     for (int i = 1; i <= rows; i++) {
-        cout << " ";
+        for(int k = rows; k >= i;k--){
+                cout << " ";
+            }
         for (int j = 1; j <= i; j++) {
-            cout << "* ";
+            if(i==j || j==1 ||i == rows){
+                cout << "* ";
+            }
+            else{
+                cout << "  ";
+            }
         }
         cout << endl;
     }
 
     return 0;
 }
-
-
-
-
