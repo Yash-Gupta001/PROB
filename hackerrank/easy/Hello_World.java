@@ -2,6 +2,7 @@ package hackerrank.easy;
 
 public class Hello_World {
     public static void main(String[] args) 
+    
     /*
 
      public static void main(String[] args) is like the starting point of a Java program. 
