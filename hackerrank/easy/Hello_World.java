@@ -25,3 +25,12 @@ public class Hello_World {
     }
 }
 // very first java prog for printing
+
+
+/*
+ * flow of java prog
+ * 1) comment
+ * 2) package
+ * 3) import
+ * 4) main
+ */
