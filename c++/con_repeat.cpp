@@ -83,13 +83,13 @@ int main() {
     cout << "enter DOB-: " << endl;
     cin >> dob;
     Employee emp1(name,emp_id,post,gen,sal,dob);
-            emp1.Details();
+        emp1.Details();
 
-}
-else if(repeat==1)
-{
-    repeat=1;
-}
+        }
+        else if(repeat==1)
+        {
+            repeat=1;
+        }
         
     }while(repeat!=1);
     
