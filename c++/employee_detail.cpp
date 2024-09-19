@@ -61,7 +61,8 @@ public:
 
         if (gen == 'm' || gen == 'f') {
             cout << "Gender -: " << gen << endl;
-        } else {
+        } 
+        else {
             cout << "Invalid gender input" << endl;
         }
 

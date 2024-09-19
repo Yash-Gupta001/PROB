@@ -7,19 +7,20 @@ public class Convert_upper_to_lower {
         char ch = sc.nextLine().charAt(0);
 
         if (ch >= 'A' && ch <= 'Z') {
-            // Convert uppercase to lowercase using ASCII value
-            char lw = (char) (ch + 32);
+            // Convert uppercase to lowercase 
+            char lw =  (char) (ch + 32);
             System.out.println("Lowercase : " + lw);
-        } 
+        }
+
         else if (ch >= 'a' && ch <= 'z') {
-            // Convert lowercase to uppercase using ASCII value
+            // Convert lowercase to uppercase 
             char up = (char) (ch - 32);
             System.out.println("Uppercase : " + up);
         } 
-        else {
+
+        else{
             System.out.println("invalid input");
         }
-
         sc.close();
     }
 }
