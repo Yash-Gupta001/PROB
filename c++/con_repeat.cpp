@@ -66,25 +66,24 @@ int main() {
         
         if(repeat==0){
             cout << "enter name-: " << endl;
-    cin >> name;
+            cin >> name;
     
-    cout << "enter id-: " << endl;
-    cin >> emp_id;
+            cout << "enter id-: " << endl;
+            cin >> emp_id;
     
-    cout << "enter post-: " << endl;
-    cin >> post;
+            cout << "enter post-: " << endl;
+            cin >> post;
     
-    cout << "enter gender-: " << endl;
-    cin >> gen;
+            cout << "enter gender-: " << endl;
+            cin >> gen;
     
-    cout << "enter sal-: " << endl;
-    cin >> sal;
+            cout << "enter sal-: " << endl;
+            cin >> sal;
     
-    cout << "enter DOB-: " << endl;
-    cin >> dob;
-    Employee emp1(name,emp_id,post,gen,sal,dob);
-        emp1.Details();
-
+            cout << "enter DOB-: " << endl;
+            cin >> dob;
+            Employee emp1(name,emp_id,post,gen,sal,dob);
+            emp1.Details();
         }
         else if(repeat==1)
         {
@@ -98,7 +97,7 @@ int main() {
     Employee emp2("Rose", "102", "developer", 'f', 75000, 12032002);
     Employee emp3;
 
-        emp2.Details();
+    emp2.Details();
     
     emp3.Details();
     return 0;

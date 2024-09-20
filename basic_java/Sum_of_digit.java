@@ -7,6 +7,7 @@ public class Sum_of_digit {
         int n;
         n = sc.nextInt();
         int total = 0 ;
+        
         while (n > 0) {
             int digit = n % 10; 
             total += digit;     

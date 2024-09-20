@@ -7,10 +7,13 @@ int main() {
     cin >> n;
 
     for (int i = 2; i <= n; i++) {  
-        int isPrime = 1;  // Assume i is prime
+
+        bool isPrime = true;  // Assume i is prime
+
         for (int j = 2; j <= i / 2; j++) {
+
             if (i % j == 0) {  
-                isPrime = 0;  // i is not prime
+                isPrime = false;  // i is not prime
                 break;
             }
         }
@@ -22,3 +25,4 @@ int main() {
 
     return 0;
 }
+// sw
