@@ -10,6 +10,7 @@ class Addition {
         number2 = num2;
         sum = number1 + number2;
     }
+    
     // Copy constructor
     Addition(Addition add) {
         number1 = add.number1;

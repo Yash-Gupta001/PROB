@@ -16,7 +16,7 @@ int main()
     cout << "element-: "; 
     for (int i = 0; i < len; i++) { 
         //cout << val[i] << ", "; 
-        if(val[i]%2!=1){
+        if(val[i] % 2 !=1){
             cout << "even no-: "<<val[i] << ", ";
         }
     } 

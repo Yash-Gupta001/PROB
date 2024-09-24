@@ -13,21 +13,22 @@ public:
     
     void Input(){
         cin.ignore();
-                    cout << "Enter employee name: ";
-                    getline(cin, name);
+            cout << "Enter employee name: ";
+            getline(cin, name);
 
-                    cout << "Enter employee post: ";
-                    getline(cin, post);
-                    cout << "Enter employee ID: ";
-                    cin >> emp_id;
+            cout << "Enter employee post: ";
+            getline(cin, post);
+            cout << "Enter employee ID: ";
+            cin >> emp_id;
 
-                    cout << "Enter gender (m/f): ";
-                    cin >> gen;
+            cout << "Enter gender (m/f): ";
+            cin >> gen;
 
-                    cout << "Enter salary: ";
-                    cin >> sal;
-                    cout << "Enter employee DOB : ";
-                    cin >> dob;
+            cout << "Enter salary: ";
+            cin >> sal;
+
+            cout << "Enter employee DOB : ";
+            cin >> dob;
     }
     
     void inputDetails() {

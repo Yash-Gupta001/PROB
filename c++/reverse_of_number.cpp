@@ -14,7 +14,8 @@ int reverseInt(int num) {
     // Check if the number is a palindrome
     if (check == reverse) {
         cout << "It is a palindrome." << endl;
-    } else {
+    } 
+    else {
         cout << "Not a palindrome." << endl;
     }
     
