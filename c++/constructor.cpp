@@ -6,6 +6,8 @@ class Employee {
 public:
 int a,b;
 
+ 
+
 void getData(){
     cout << "enter value of a"<<endl;
     cin >> a;

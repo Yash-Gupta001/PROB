@@ -18,6 +18,7 @@ public:
 
             cout << "Enter employee post: ";
             getline(cin, post);
+
             cout << "Enter employee ID: ";
             cin >> emp_id;
 
@@ -62,7 +63,7 @@ public:
 
         if (gen == 'm' || gen == 'f') {
             cout << "Gender -: " << gen << endl;
-        } 
+        }
         else {
             cout << "Invalid gender input" << endl;
         }
