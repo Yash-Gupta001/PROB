@@ -11,7 +11,7 @@ class A{
 
 };
 
-class B :publicA{
+class B :public A{
     public:
     void mul(){
         cout << "addition of two variable" << a*b<<endl
