@@ -19,11 +19,11 @@ class employee {
 
     public String toString() {
         return "My name is :::  " + name + "\n" + "Your age ::: " + age + "\n" + "Your salary is ::: " + salary + "\n"
-                + "Gender :::: " + gender;
+                + "Gender ::: " + gender;
     }
 }
 
-public class Emp {
+public class ToStringMethod {
     public static void main(String[] arg) {
         employee e = new employee();
         e.getdata();
@@ -31,3 +31,8 @@ public class Emp {
     }
 }
 
+/*
+
+
+
+ */

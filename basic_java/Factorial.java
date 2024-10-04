@@ -15,5 +15,4 @@ public class Factorial {
         System.out.println(res);
         sc.close();
     }
-    
 }
