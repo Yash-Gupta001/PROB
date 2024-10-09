@@ -25,8 +25,6 @@ class C  :public B{
     }
 };
 
-
-
 int main(){
     C b;
     b.add();
